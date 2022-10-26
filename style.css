@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container1 {
+    max-width: 700px;
+    margin: 0 auto;
+}
+section {
+    padding: 6px 0 ;
+}
+article {
+    padding: 30px 0;
+}
+/* Font Sizes */
+
+.smallest {
+    font-size: 8px;
+}
+footer {
+    font-size: 12px;
+}
+.small {
+    font-size: 16px;
+}
+.medium {
+    font-size: 21px;
+}
+.large {
+    font-size: 28px;
+}
+.xl {
+    font-size: 31px;
+}
+.xxl {
+    font-size: 56px;
+}
+
+/* Color */
+
+.black {
+    color: #1d1d1f;
+}
+.blue {
+    color: #0066cc;
+}
+.gray {
+    color: #6e6e73;
+}
+.f-gray {
+    color: #424245;
+}
+.white {
+    color: #fff;
+}
+.back {
+    background: #000000CC;
+}
+.blackback {
+    background-color: #000;
+}
+.backblack1 {
+    background-color: #1d1d1f;
+    width: 30px;
+    height: 30px;
+}
+.red {
+    color: #c4141b;
+}
+.orange {
+    color: orange;
+}
+.grayer {
+    background: #F5F5F7;
+}
+/* Font weights */
+.yon {
+    font-weight: 400;
+}
+.go {
+    font-weight: 500;
+}
+.roku {
+    font-weight: 600;
+}
+.nana {
+    font-weight: 700;
+}
+/* Flex */
+
+.row {
+    display: flex;
+}
+.spcbet {
+    justify-content: space-between;
+}
+.center {
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+}
+.textcenter {
+    text-align: center;
+}
+.col {
+    flex-direction: column;
+}
+.gap {
+    gap: 12px;
+}
+.gapbig {
+    gap: 40px;
+}
+.grow {
+    flex-grow: 1;
+}
+.col-2 {
+    width: calc(100%/2 - 12px);
+}
+
+/* addsizers */
+
+.padnav {
+    padding: 17px 0;
+}
+.padp {
+    padding: 6px 0;
+}
+.none {
+    list-style: none;
+    text-decoration: none;
+}
+.full {
+    width: 100%;
+}
+.padsmalpic {
+    padding: 60px 0 470px 0 ;
+}
+.padbigpic {
+    padding: 95px 0 574px 0;
+}
+.margleft {
+  margin-left: 12px;
+}
+.margright {
+    margin-right: 12px;
+}
+/* backimg */
+.watch {
+    background-image: url(./images/watch.png);
+    background-size: cover;
+    background-position: center;
+}
+.airpods {
+    background-image: url(./images/airpods.png);
+    background-size: cover;
+    background-position: center;
+}
+.watch2 {
+    background-image: url(./images/watch2.png);
+    background-size: cover;
+    background-position: center;
+}
+.airpodwith{
+    background-image: url(./images/airpodswithpep.png);
+    background-size: cover;
+    background-position: center;
+}
+.macbook {
+    background-image: url(./images/macbook.png);
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    background-image: url(./images/card.png);
+    background-size: cover;
+    background-position: center;
+}
+.iphone {
+    background-image: url(./images/figure.png);
+    background-size: cover;
+    background-position: center;
+}
+.iphone2 {
+    background-image: url(./images/2nd.png);
+    background-size: cover;
+    background-position: center;
+}
+.watch {
+    background-image: url(./images/watch.png);
+    background-size: cover;
+    background-position: center;
+}
+footer ul li {
+    padding: 3px 0 ;
+}
+.nonepad {
+    padding: 0;
+}
+footer ul {
+    padding-top:12px ;
+}
+hr {
+    margin: 12px 0;
+}
